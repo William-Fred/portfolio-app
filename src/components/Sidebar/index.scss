@@ -80,35 +80,38 @@
       }
       a.work-link{
           &::after{
-              content: 'WORK'
+              content: 'WORK';
+              font-family: 'Coolvetica';
           }
       }
     }
     a.contact-link{
         &::after{
-            content: 'CONTACT'
+            content: 'CONTACT';
+            font-family: 'Coolvetica';
         }
     }
-ul{
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    display: block;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-    margin: 0;
 
-    li{
-        a{
-            padding: 16px 0;
-            display: block;
-            font-size: 20px;
-            line-height: 16px;
-            &:hover svg{
-                color: #fff;
-            }
-        }
+    ul{
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        display: block;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        margin: 0;
+
+      li{
+          a{
+              padding: 16px 0;
+              display: block;
+              font-size: 20px;
+              line-height: 16px;
+              &:hover svg{
+                  color: #fff;
+              }
+          }
+      }
     }
-}
 }
